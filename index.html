@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title> Hello </title>
-  <link rel = "stylesheet" href="styles.css">
+  <head>
+    <meta charset="utf-8">
+    <title> Hello </title>
+    <link rel = "stylesheet" href="styles.css">
+  </head>
 
-</head>
-<body onload = "init()">
+  <body onload = "init()">
 
-<ul class = "navbar">
-  <li> <a href = "index.html" > Home </a> </li>
-  <li> <a href = "forms.html" > Forms </a> </li>
-  <li> <a href = "https://www.google.pl" > Google PL </a> </li>
-</ul>
-<h1>Heading 1</h1>
-<p>Does it work?</p>
-<p>Yes it's working ! </p>
-<img src="logo.png"/>
+    <ul class = "navbar">
+      <li> <a href = "index.html" > Home </a> </li>
+      <li> <a href = "forms.html" > Forms </a> </li>
+      <li> <a href = "https://www.google.pl" > Google PL </a> </li>
+    </ul>
+    <h1>Heading 1</h1>
+    <p>Does it work?</p>
+    <p>Yes it's working ! </p>
+    <img src="logo.png"/>
 
-<h2> Task 1 </h2>
-<div  class = "img" >
-  <img src ="car1.png" id ="first"/>
-</div>
+    <div>
+      <button type ="button" onclick="greet()"> Say hello </button>
+    </div>
 
-<button type ="button" onclick="greet()"> Say hello </button>
-<script src ="script.js"> </script>
 
-</body>
+    <h2> Task 1 </h2>
+    <div>
+      <img src ="car1.png" id ="first"/>
+    </div>
+
+    <h2> Task 2 </h2>
+    <div>
+      <img src="flower1.png" id="container"/>
+      <img src="flower1.png" id="container"/>
+      <img src="flower1.png" id="container"/>
+    </div>
+
+
+    <script src ="script.js"> </script>
+  </body>
 </html>
