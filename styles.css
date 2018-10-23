@@ -1,0 +1,34 @@
+body {
+  margin-left: 200px;
+  background-color: aqua;
+  color : darkblue;
+}
+
+ul.navbar {
+  position:absolute;
+  left: 15px;
+  top: 30px;
+  width: 120px;
+}
+
+ul.navbar li {
+  margin: 5px 0;
+  padding: 5px;
+  border-right: 1px solid #17252a;
+  border-top: 1px solid #17252a;
+  border-left: 1px solid #17252a;
+  border-bottom: 1px solid #17252a;
+  border-style : dashed;
+}
+
+ul.navbar a {
+  text-decoration: none
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: darkblue;
+}
