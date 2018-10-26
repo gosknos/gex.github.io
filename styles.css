@@ -1,11 +1,12 @@
 body {
   margin-left: 200px;
   background-color: darkgrey;
-  color : darkblue;
+  color : midnightblue;
+    font-family: Calibri ;
 }
 
 ul.navbar {
-  position:absolute;
+  position:fixed;
   left: 15px;
   top: 30px;
   width: 120px;
@@ -31,5 +32,25 @@ a:link {
 
 a:visited {
   color: darkblue;
+}
+
+h1.title {
+  text-align : center;
+}
+
+p.color1{
+    color : midnightblue;
+}
+
+div.color2{
+    color : purple;
+}
+
+div.color3{
+    color : darkolivegreen;
+}
+
+p.nav a {
+    text-decoration: none;
 }
 
